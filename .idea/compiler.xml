@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-service" />
+        <module name="hytrix-dashboard" />
         <module name="user-service" />
         <module name="book-service" />
         <module name="commons" />
@@ -19,6 +20,7 @@
       <module name="borrow-service" target="8" />
       <module name="commons" target="8" />
       <module name="eureka-service" target="8" />
+      <module name="hytrix-dashboard" target="8" />
       <module name="springcloudstudy" target="1.8" />
       <module name="user-service" target="8" />
     </bytecodeTargetLevel>
@@ -29,6 +31,7 @@
       <module name="borrow-service" options="-parameters" />
       <module name="commons" options="-parameters" />
       <module name="eureka-service" options="-parameters" />
+      <module name="hytrix-dashboard" options="-parameters" />
       <module name="springcloudstudy" options="-parameters" />
       <module name="user-service" options="-parameters" />
     </option>

@@ -9,6 +9,7 @@
         <module>borrow-service</module>
         <module>commons</module>
         <module>eureka-service</module>
+        <module>hytrix-dashboard</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -54,6 +55,7 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
         </dependencies>
     </dependencyManagement>
     <build>
